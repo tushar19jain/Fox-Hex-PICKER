@@ -1,3 +1,5 @@
+# Try Now! 
+https://fox-hexpicker.netlify.app/
 ## Welcome to Fox-Hex PICKER  Web App! 🙏
 
 This web app is designed to generate random hexadecimal color codes that you can use in your web development projects, graphic design projects, or any other creative endeavors that require color codes.
