@@ -7,7 +7,7 @@ This web app is designed to generate random hexadecimal color codes that you can
 3 You can copy the generated color code. <br>
 4 You can also see the generated color displayed in the  background. <br>
 If you don't like the generated color, simply click the "Generate" button again to generate a new random color code. <br>
-
+[<video src = "https://user-images.githubusercontent.com/112325029/222963985-de6303e4-4842-48c2-8f04-c975ee939602.mp4" control = "none">]
 ## Features: ⚙️
 • Generates random hexadecimal color codes. <br>
 • Provides a preview of the generated color. <br>
