@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding the font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Fox-Hex.app</title>
+</head>
+<body onload="loadVideo()" >
+    <!-- Creating the header for app-->
+    <section class="header">
+        <nav class="nav-head">
+            <!-- Creating the div for Logo and Logo text for App -->
+            <div class="logo">
+                <img src="/asset/logo.jpg" alt="" srcset="">
+                <!-- Creating another div to keep logo and logo text Flex ! -->
+                <div class="logoText">
+                <img  src="/asset/logo-name.png" alt="" srcset="">
+            </div>
+            </div>
+            <!-- Creating a DIV for the Icon links -->
+            <div class="head-icon-links">
+                <ul>
+                    <li><a href="https://github.com/tushar19jain"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/tusharjain2003"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Creating the next section for the body of the App -->
+    <section class="app-body">
+        <nav class="body-app-nav">
+            <!-- Creating the container for the left side info & steps -->
+            <div class="app-body-left-side-container">
+                <h3>This web app is designed to generate random hexadecimal color codes that you can use in your web development projects, graphic design projects, or any other creative endeavors that require color codes.</h3><br>
+                <h5>How to Use:</h5><br><p>Simply click the "Generate" button to generate a random hexadecimal color code.<br><br>The generated color code will appear in the "Color Code" section in the form of a six-digit hexadecimal value.<br><br>You can copy the generated color code<br>If you don't like the generated color, simply click the "Generate Color" button again to generate a new random color code.</p>
+            </div>
+            <!-- Creating the MAIN app area -->
+            <div class="app-main-area">
+                <!-- Creating the copy able text field -->
+                <h1 id="hexCode">#ffffff</h1>
+                <!-- Creating the button for random color trigger -->
+                <button id="random">Generate</button>
+                <button id="reset">Reset</button>
+            </div>
+        </nav>
+    </section>
+    <!-- Creating the next section for terms & conditions  -->
+    <section class="terms-and-conditions">
+        <p onclick="showConditions()">Terms&Conditions</p>
+    </section>
+    <!-- Linking the javascript file -->
+    <script src="/script.js"></script>
+</body>
+</html>
